@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hexal - главная страница</title>
+	<link rel="stylesheet" type="text/css" href="css/fontello.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+	<header class="header">
+		<div class="header__container">
+			<nav class="navigation">				
+				<ul>
+					<li class="menu portfolio"><a href="#portfolio">Portfolio</a></li>
+					<li class="menu about"><a href="#about">About</a></li>			
+					<li class="menu blog"><a href="#">Blog</a></li>
+					<li class="menu touch"><a href="#touch">Get in touch</a></li>
+					<li class="logo"><img src="assets/img/header/logo.png" alt="logo"></li>
+					<li class="triangle"></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<section class="hexagon-container" id="portfolio">
+			<div class="hexagon-container__row1">				
+				<img class="hexagon-container__row1--image" src="assets/img/portfolio/first.png" alt="">
+				<img class="hexagon-container__row1--image" src="assets/img/portfolio/second.png" alt="">
+				<img class="hexagon-container__row1--image" src="assets/img/portfolio/third.png" alt="">
+				<img class="hexagon-container__row1--image" src="assets/img/portfolio/fourth.png" alt="">				
+			</div>			
+			<div class="hexagon-container__row2">
+				<img class="hexagon-container__row2--image" src="assets/img/portfolio/fifth.png" alt="">
+				<img class="hexagon-container__row2--image" src="assets/img/portfolio/sixth.png" alt="">
+				<img class="hexagon-container__row2--image" src="assets/img/portfolio/seventh.png" alt="">
+				<img class="hexagon-container__row2--image" src="assets/img/portfolio/eighth.png" alt="">
+				<img class="hexagon-container__row2--image" src="assets/img/portfolio/nineth.png" alt="">
+			</div>		
+			<div class="hexagon-container__row3">				
+				<img class="hexagon-container__row3--image" src="assets/img/portfolio/tenth.png" alt="">
+				<img class="hexagon-container__row3--image" src="assets/img/portfolio/eleventh.png" alt="">
+				<img class="hexagon-container__row3--image" src="assets/img/portfolio/twelveth.png" alt="">
+				<img class="hexagon-container__row3--image" src="assets/img/portfolio/thirteenth.png" alt="">			
+			</div>
+			<div class="slider">
+				<div class="slider-dots">
+					<div class="slider-dots__dot"></div>
+					<div class="slider-dots__dot"></div>
+					<div class="slider-dots__dot dot-active"></div>
+					<div class="slider-dots__dot"></div>
+					<div class="slider-dots__dot"></div>
+					<div class="slider-dots__dot"></div>
+				</div>
+			</div>
+		</section>
+		<section class="info" id="about">
+			<div class="info-container">
+				<img class="person-image" src="assets/img/person.png" alt="person">
+				<article class="person">
+					<h1 class="person-title">Smith Anderson</h1>
+					<p class="person-profession">Illustrator & Character Designer</p>
+					<p class="person-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna. Integer gravida, diam congue molestie fringilla, elit odio rhoncus turpis, ac dictum libero elit vel metus. Morbi egestas sit amet velit eget venenatis. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna</p>
+
+					<ul class="social">
+						<li class="social-btn facebook"><a class="social-link social-link__facebook" href="#"><i class="icon-facebook"></i></a></li>
+						<li class="social-btn twitter"><a class="social-link  social-link__twitter" href="#"><i class="icon-twitter"></i></a></li>
+						<li class="social-btn google"><a class="social-link  social-link__google" href="#"><i class="icon-gplus"></i></a></li>
+						<li class="social-btn pinterest"><a class="social-link social-link__pinterest" href="#"><i class="icon-pinterest"></i></a></li>
+						<li class="social-btn linkedin"><a class="social-link social-link__linkedin" href="#"><i class="icon-linkedin"></i></a></li>
+						<li class="social-btn dribble"><a class="social-link social-link__dribble" href="#"><i class="icon-dribbble"></i></a></li>
+					</ul>
+				</article>
+			</div>
+		</section>
+	</main>
+	<footer class="footer" id="touch">
+		<div class="footer-content">
+			<h2 class="footer-content__title">Get In Touch</h2>
+			<p class="footer-content__desc">In order to get in touch use the contact form below:</p>
+		</div>
+		<div class="footer-container">
+			<form class="footer-form clearfix" action="#">
+				<input class="footer-form__input" type="text" name="name" placeholder="Name(Recuired)" required>
+				<input class="footer-form__input" type="email" name="email" placeholder="Email(Recuired)" required>
+				<input class="footer-form__input" type="text" name="subject" placeholder="Subject">
+				<textarea class="footer-form__area" name="message" id="message"  placeholder="Write your message here..."></textarea>
+				<button class="footer-form__btn" type="submit">Send</button>
+			</form>
+			<div class="contacts">
+				<p class="contacts-desc"><span>Quisque Hendrerit:</span> purus dapi-<wbr>bus, ornare nibh vitae, viverra nibh. Fusce vitse aiquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus morbi vitae.</p>
+				<ul class="contacts-info">
+					<li class="contacts-location"><i class="icon icon-location"></i><span class="address">Elm St. 14/05 Lost City</span></li>
+					<li class="contacts-phone"><a href="tel:+35283318635"><i class="icon icon-phone"></i></a><span class="phone">+3528 331 86 35</span></li>
+					<li class="contacts-email"><a href="mailto:info@hexalcorp.com"><i class="icon icon-mail"></i></a><span class="email">info@hexalcorp.com</span></li>
+				</ul>
+			</div>
+		</div>	
+	</footer>
+	<footer class="footer-copyright">
+		<div class="copyright__container">&copy; Copyright 2013 by PSDchat]</div>
+	</footer>
+</body>
+</html>
